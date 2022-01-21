@@ -177,3 +177,21 @@ footer{
   #header.header-transparent {
     background: transparent;
   }
+
+/* Borda de Ajuda */
+.ajuda1{
+    border-color: rgb(73, 228, 12);
+    border-style: solid;
+}
+.ajuda2{
+    border-color: rgb(241, 6, 202);
+    border-style: solid;
+}
+.ajuda3{
+    border-color: rgb(26, 12, 228);
+    border-style: solid;
+}
+.ajuda4{
+    border-color: rgb(228, 19, 12);
+    border-style: solid;
+}
