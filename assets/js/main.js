@@ -1,17 +1,10 @@
-$(document).ready(function() {
-    $(".menu-icon").on("click", function() {
-          $("nav ul").toggleClass("showing");
-    });
-});
+const btnMobile = document.getElementById('btn-mobile');
 
-// Scrolling Effect
+function ClickMenu(event){
+      if(event.type == 'touchstart') event.preventDefault()
+      const nav = document.getElementById('nav');
+      nav.classList.toggle('active');
+}
 
-$(window).on("scroll", function() {
-    if($(window).scrollTop()) {
-          $('nav').addClass('black');
-    }
-
-    else {
-          $('nav').removeClass('black');
-    }
-})
+btnMobile.addEventListener('click', ClickMenu);
+btnMobile.addEventListener('touchstart', ClickMenu);
