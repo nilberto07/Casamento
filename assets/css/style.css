@@ -226,7 +226,7 @@ html::-webkit-scrollbar-thumb {
     #nav.active #menu{
         /* display: block; */
         height: calc(100vh - 20vh);
-        width: calc(37vh - 20vh);
+        /* width: calc(37vh - 20vh);     */
         visibility: visible;overflow-y: auto;
     }
     .layoutMenu {
