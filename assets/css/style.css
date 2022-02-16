@@ -116,7 +116,7 @@ li {
     }
 
     nav {
-        width: 23rem;
+        width: 6rem;
         height: 1.7rem;
         line-height: 12px;
         margin: 0rem 0rem 0rem 0rem;
@@ -124,7 +124,7 @@ li {
 
     nav ul {
         text-align: center;
-        margin: 1.6rem 0rem 1rem 14rem;
+        /* margin: 1.6rem 0rem 1rem 14rem; */
         padding-right: 1rem;
     }
     
@@ -137,6 +137,9 @@ li {
     #menu a {
         display: block;
         padding: .5rem .5rem .5rem .5rem;
+    }
+    nav ul{
+        padding-left: 1rem;
     }
 
 }
@@ -206,7 +209,7 @@ html::-webkit-scrollbar-thumb {
 
     #btn-mobile{
         display: flex;
-        /* padding: .5rem 1rem; */
+        padding: 0rem 0rem 1.5rem 1rem;
         font-size: 1.4rem;
         color: white;
         border: none;
@@ -214,7 +217,7 @@ html::-webkit-scrollbar-thumb {
         border-radius: 10px 10px 10px 10px; */
         background: none;
         cursor: pointer;
-        margin: 0rem 0rem 0rem 15rem;
+        /* margin: 0rem 0rem 0rem 15rem; */
         gap: .5rem;
     }
     #menu{
@@ -222,7 +225,8 @@ html::-webkit-scrollbar-thumb {
     }
     #nav.active #menu{
         /* display: block; */
-        height: calc(100vh - 56px);
+        height: calc(100vh - 20vh);
+        width: calc(37vh - 20vh);
         visibility: visible;overflow-y: auto;
     }
     .layoutMenu {
