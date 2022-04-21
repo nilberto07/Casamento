@@ -233,7 +233,7 @@ html::-webkit-scrollbar-thumb {
         width: -1rem;
         top: 0rem;
         z-index: 1000;
-        background: rgba(26, 24, 22, 0.85);
+        background: rgba(0, 0, 0, 0.85);
         border-radius: 10px 10px 10px 10px;
         transition: .6s;
         height: 0px;
@@ -250,11 +250,29 @@ html::-webkit-scrollbar-thumb {
     }
 }
 
-footer{
+.rodape {
+    bottom: 0;
+    background: rgb(27, 27, 27);
+    color: #FFF;
+    /* width: 100%;
+    height: 100px;     */
+    text-align: center;
+    line-height: 100px;
+}
+
+.boasvindas{
+    color: rgb(0, 0, 0);
+    
+}
+.boasvindas h3{
+    color: rgb(0, 0, 0);
+}
+
+/* footer{
     position: fixed;
     bottom:0;
     left: 0;
-}
+} */
 
 /* Borda de Ajuda */
 .ajuda1{
@@ -270,6 +288,6 @@ footer{
     border-style: solid;
 }
 .ajuda4{
-    border-color: rgb(228, 19, 12);
+    border-color: rgb(92, 85, 85);
     border-style: solid;
 }
