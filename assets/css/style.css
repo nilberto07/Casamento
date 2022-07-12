@@ -91,7 +91,7 @@ li {
 
     .texto {
         position: absolute;
-        background-color: rgba(0,0,0,0.5);
+        /* background-color: rgba(0,0,0,0.5); */
         color:#fff;
         text-align: center;
         top: 11rem;
@@ -272,7 +272,7 @@ html::-webkit-scrollbar-thumb {
 
     .texto {
         position: absolute;
-        background-color: rgba(0,0,0,0.5);
+        /* background-color: rgba(0,0,0,0.5); */
         color:#fff;
         text-align: center;
         top: 5.4rem;
